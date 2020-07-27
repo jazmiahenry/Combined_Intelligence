@@ -5,13 +5,16 @@
 This project seeks to understand popular sentiment concerning COVID-19 using data collected from 80,934 tweets.
 
 See our presentation here: https://drive.google.com/file/d/1cWQa2je9gHli8LgWMyhVJfK-ozzy9CpR/view?usp=sharing
+
 *Code for presentation avaiable in presentation folder*
 
 In our project, we sought to answer a few simple questions:
+
     1. What are the most common words in the entire dataset?
     2. What are the most common words in the dataset for negative and positive tweets, respectively?    
     3. Which trends are associated with my dataset?    
     4. Which trends are associated with either of the sentiments? Are they compatible with the sentiments?
+    
 *Dataset credit: https//github.com/sandyskim/coronavirus-tweets*
 
 ## Strategies Used
