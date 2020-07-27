@@ -4,7 +4,7 @@
 
 This project seeks to understand popular sentiment concerning COVID-19 using data collected from 80,934 tweets.
 
-See our presentation here: https://drive.google.com/file/d/1cWQa2je9gHli8LgWMyhVJfK-ozzy9CpR/view?usp=sharing
+See our presentation here: https://youtu.be/UaYQ-wA6WtY
 
 *Code for presentation avaiable in presentation folder*
 
