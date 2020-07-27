@@ -68,7 +68,7 @@ Trend amonst racist or sexist tweets:
 ### Analyzing Preprocessed Data
 To analyse a preprocessed data, it needs to be converted into features. Depending upon the usage, text features can be constructed using assorted techniques – Bag of Words, TF-IDF, and Word Embeddings.
 
-**Bag-of-words Feature**
+#### Bag-of-words Feature
 
 Let’s start with the Bag-of-Words Features.
 
@@ -88,7 +88,7 @@ The matrix M of size 2 X 6 will be represented as –
 
 Now the columns in the above matrix can be used as features to build a classification model.
 
-**TF-IDF Features**
+#### TF-IDF Features
 
 This is another method which is based on the frequency method but it is different to the bag-of-words approach in the sense that it takes into account not just the occurrence of a word in a single document (or tweet) but in the entire corpus.
 
@@ -102,7 +102,7 @@ IDF = log(N/n), where, N is the number of documents and n is the number of docum
 
 TF-IDF = TF*IDF
 
-**Word2Vec Features**
+#### Word2Vec Features
 
 Word embeddings are the modern way of representing words as vectors. The objective of word embeddings is to redefine the high dimensional word features into low dimensional feature vectors by preserving the contextual similarity in the corpus. They are able to achieve tasks like King -man +woman = Queen, which is mind-blowing.
 
@@ -115,7 +115,8 @@ Dimensionality reduction - significant reduction in the no. of features required
 It capture meanings of the words, semantic relationships and the different types of contexts they are used in.
 
 
-Word2Vec Embeddings
+**Word2Vec Embeddings**
+
 Word2Vec is not a single algorithm but a combination of two techniques – CBOW (Continuous bag of words) and Skip-gram model. Both of these are shallow neural networks which map word(s) to the target variable which is also a word(s). Both of these techniques learn weights which act as word vector representations.
 
 CBOW tends to predict the probability of a word given a context. A context may be a single adjacent word or a group of surrounding words. The Skip-gram model works in the reverse manner, it tries to predict the context for a given word.
@@ -138,7 +139,7 @@ Freebase names
 
 DBPedia vectors (wiki2vec)
 
-**Doc2Vec Embedding**
+#### Doc2Vec Embedding
 
 Doc2Vec model is an unsupervised algorithm to generate vectors for sentence/paragraphs/documents. This approach is an extension of the word2vec. The major difference between the two is that doc2vec provides an additional context which is unique for every document in the corpus. This additional context is nothing but another feature vector for the whole document. This document vector is trained along with the word vectors.
 
