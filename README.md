@@ -6,6 +6,8 @@ This project seeks to understand popular sentiment concerning COVID-19 using dat
 
 See our presentation here: https://youtu.be/UaYQ-wA6WtY
 
+Our viola dashboard is here: https://hub.gke.mybinder.org/user/jazmiahenry-com-ed_intelligence-cf46dv20/voila/render/Code_Final/covid_sentiment.ipynb?token=R7L8Hb4OSqarCm2Idae7tA
+
 *Code for presentation available in presentation folder*
 
 In our project, we sought to answer a few simple questions:
