@@ -6,7 +6,7 @@ This project seeks to understand popular sentiment concerning COVID-19 using dat
 
 See our presentation here: https://youtu.be/UaYQ-wA6WtY
 
-*Code for presentation avaiable in presentation folder*
+*Code for presentation available in presentation folder*
 
 In our project, we sought to answer a few simple questions:
 
