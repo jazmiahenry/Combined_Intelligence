@@ -123,6 +123,8 @@ Word2Vec is not a single algorithm but a combination of two techniques – CBOW 
 
 CBOW tends to predict the probability of a word given a context. A context may be a single adjacent word or a group of surrounding words. The Skip-gram model works in the reverse manner, it tries to predict the context for a given word.
 
+<img width="803" alt="word2vec" src="https://user-images.githubusercontent.com/48301423/88504998-3476ab80-cfa4-11ea-975a-ad5c2b3b090d.png">
+
 There are three laters: - an input layer, - a hidden layer, and - an output layer.
 
 The input layer and the output, both are one- hot encoded of size [1 X V], where V is the size of the vocabulary (no. of unique words in the corpus). The output layer is a softmax layer which is used to sum the probabilities obtained in the output layer to 1. The weights learned by the model are then used as the word-vectors.
