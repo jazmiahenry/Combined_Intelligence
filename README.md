@@ -172,3 +172,17 @@ Precision = TP/TP+FP
 Recall = TP/TP+FN
 
 F1 Score = 2(Recall Precision) / (Recall + Precision)
+
+## Chatbot
+
+<img width="1663" alt="chat" src="https://user-images.githubusercontent.com/48301423/89187194-f4e32d00-d56a-11ea-8885-4b82ba137ae7.png">
+
+**Photo of Chatbot correspondence*
+
+**Capabilities**
+
+1. Can provide sentiment scoring at request
+2. Can provide assistance to people intelligently
+3. Has a control discipline function that avoids cyberbullying
+4. Provides useful and accurate information to the user
+
